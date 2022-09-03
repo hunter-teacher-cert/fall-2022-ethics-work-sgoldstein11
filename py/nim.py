@@ -14,7 +14,10 @@ while (int(stones) >0):
   if (int(stones)==0):
     print("You win! You took the last stone")
     break
-  stonesTakenComp = random.randint(1,3)
+  if stones <= 3:  #comp wins if 3 or less
+    stonesTakenComp = stones
+  else: # more than 3 it will drawv random number 
+    stonesTakenComp = random.randint(1,3)
   print("The computer has taken " +           
   str(stonesTakenComp) + " stones")
   stones -= stonesTakenComp
@@ -22,6 +25,14 @@ while (int(stones) >0):
   if(int(stones) <=0):
     print("Sorry the computer won :(")
     break
+
+  
+
+
+
+      
+  
+
 
   
 
