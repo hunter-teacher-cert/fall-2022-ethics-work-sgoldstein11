@@ -20,17 +20,29 @@ print("Sorted list:" + str(data))
 
 #binarySearch
 
-low = 0 #setting low index to 0
-high = len(data) -1 #setting high to highest index of list 
-mid = 0
-while(low <=high):
-  mid = (high + low)//2
-  if data[mid] < 6:
-    low = mid + 1
-  elif data[mid] >6 :
-    high = mid -1
-  else:
-    print("The number is found in the array")
-    break
 
-#print("The value is not found in the array")
+def binarySearch(data,x):
+ 
+  low = 0 #setting low index to 0
+  high = len(data) -1 #setting high to        highest index of list 
+  mid = 0
+  while(low <=high):
+    mid = (high + low)//2
+    if data[mid] < x:
+      low = mid + 1
+    elif data[mid] >x :
+      high = mid -1
+    else:
+      return mid
+    
+
+  return -1 
+  
+x=6
+found = binarySearch(data, x)
+
+ 
+if found != -1:
+    print("The number " + str(x) +  " is found at index ", str(found))
+else:
+    print("The number " + str(x) +  " is not in this array")
