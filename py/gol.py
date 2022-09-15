@@ -1,7 +1,7 @@
 # FILENAME gol.py
 # First Last Stacy Goldstein
 # CSCI 77800 Fall 2022
-# collaborators: 
+# collaborators: Susie Seccafico 
 # consulted: summer work and python sources 
 import random
 
