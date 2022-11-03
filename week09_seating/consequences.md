@@ -1,1 +1,4 @@
+Most people would agree that the more people in ones professional network, the better the chances that one will make a connection that leads to a job. That is the premise in many ways of LinkedIn. However, a study conducted by LinkedIn, Harvard, Stanford and MIT randomly displayed weak connections to some users while displaying stronger connections to other users in so-called “A/B Testing”. Unsurprisingly, those who were exposed to closer contacts (meaning an individual that they have a lot of people in common with) lead to more job prospects and a higher chance of employment.
+This was a study that was done without informed consent and it appears to affect those were fed weaker connections in terms of being successful in finding a job. While the research is interesting, it is not necessarily fair to have “tested” on individuals who are looking for work.
 
+https://www.cbc.ca/news/business/linkedin-study-consent-1.6625768
